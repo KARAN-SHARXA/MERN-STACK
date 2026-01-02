@@ -239,6 +239,230 @@ project/
 HTML is the foundation of web development.
 Once HTML is mastered, the next step is CSS for styling and JavaScript for interactivity.
 
+# 🎨 CSS (Cascading Style Sheets)
+
+CSS is a stylesheet language used to **style and layout web pages**.  
+It controls colors, fonts, spacing, positioning, and responsiveness of HTML elements.
+
+---
+
+## 🚀 What is CSS?
+
+CSS stands for **Cascading Style Sheets**.
+
+### Definition (Interview Ready)
+CSS is used to describe the **presentation and design of HTML documents**.
+
+- HTML → Structure  
+- CSS → Design  
+- JavaScript → Behavior  
+
+---
+
+## 🧠 Why CSS is Important?
+
+- Makes websites visually attractive
+- Controls layout and spacing
+- Enables responsive design
+- Improves user experience
+
+---
+
+## 🧱 CSS Syntax
+
+```css
+selector {
+  property: value;
+}
+
+
+
+xample
+p {
+  color: blue;
+  font-size: 16px;
+}
+
+🎯 Ways to Apply CSS
+1️⃣ Inline CSS
+<p style="color:red;">Hello</p>
+
+2️⃣ Internal CSS
+<style>
+  p {
+    color: green;
+  }
+</style>
+
+3️⃣ External CSS (Recommended)
+<link rel="stylesheet" href="style.css">
+
+p {
+  color: black;
+}
+
+🧩 CSS Selectors
+Element Selector
+p {
+  color: red;
+}
+
+Class Selector
+.text {
+  color: blue;
+}
+
+<p class="text">Hello</p>
+
+ID Selector
+#title {
+  font-size: 30px;
+}
+
+<h1 id="title">Heading</h1>
+
+Group Selector
+h1, h2, p {
+  color: purple;
+}
+
+Universal Selector
+* {
+  margin: 0;
+  padding: 0;
+}
+
+🎨 CSS Colors
+Color Name
+color: red;
+
+HEX Code
+color: #ff0000;
+
+RGB
+color: rgb(255, 0, 0);
+
+RGBA (with opacity)
+color: rgba(255, 0, 0, 0.5);
+
+📐 CSS Units
+Unit	Description
+px	Fixed size
+%	Relative to parent
+em	Relative to parent font-size
+rem	Relative to root font-size
+vh	Viewport height
+vw	Viewport width
+p {
+  font-size: 1.2rem;
+}
+
+📦 CSS Box Model
+
+Every HTML element is treated as a box consisting of:
+
+Content → Padding → Border → Margin
+
+.box {
+  width: 200px;
+  padding: 20px;
+  border: 2px solid black;
+  margin: 10px;
+}
+
+Best Practice
+* {
+  box-sizing: border-box;
+}
+
+🧱 Display Property
+display: block;
+display: inline;
+display: inline-block;
+display: none;
+
+Difference
+
+display: none → removes element completely
+
+visibility: hidden → hides but keeps space
+
+📍 Position Property
+position: static;
+position: relative;
+position: absolute;
+position: fixed;
+position: sticky;
+
+Example
+.box {
+  position: relative;
+  top: 10px;
+  left: 20px;
+}
+
+📐 Flexbox (Modern Layout)
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+Common Flexbox Properties
+
+justify-content
+
+align-items
+
+flex-direction
+
+gap
+
+🧠 Z-Index
+
+Controls stacking order of elements.
+
+.box {
+  position: absolute;
+  z-index: 10;
+}
+
+💬 CSS Comments
+/* This is a CSS comment */
+
+✅ Best Practices
+
+Use external CSS
+
+Use semantic class names
+
+Prefer rem over px
+
+Avoid inline CSS
+
+Keep code clean & readable
+
+Use box-sizing: border-box
+
+📁 Recommended Project Structure
+project/
+├── index.html
+├── css/
+│   └── style.css
+├── images/
+└── js/
+
+🎯 Conclusion
+##CSS is an essential skill for web development.
+It transforms plain HTML into beautiful, responsive, and user-friendly websites.
+
+👨‍💻 Author
+
+Karan Sharma
+
+Happy Styling 🎨🚀
+
+
 👨‍💻 Author
 
 Karan
