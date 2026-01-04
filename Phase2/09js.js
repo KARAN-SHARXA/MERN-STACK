@@ -13,6 +13,8 @@ console.log("great");
 //new object
 console.log("hi ");
 console.log("rah");
+console.log("hu");
+
 
 
 
