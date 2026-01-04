@@ -54,3 +54,20 @@ for (let key in user) {
 
 
 
+
+// refernce copy
+// let obj1 = {a:10};
+// let obj2 = obj1;
+
+// obj2.a = 20;
+// console.log(obj1.a);
+
+
+// // proper copy
+// let obj1 = { a: 10 };
+// let obj2 = { ...obj1 };
+
+// obj2.a = 30;
+// console.log(obj1.a); // 10 ✅
+
+
