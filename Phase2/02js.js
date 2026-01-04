@@ -52,3 +52,20 @@ let m; // undefined means a variable has been declared but not assigned a value
 console.log(n);
 console.log(m);
 
+
+
+
+// ✅ Definition: Immutable Data Type
+
+// Immutable data types are those whose values cannot be changed once they are created.
+// Any operation that appears to modify an immutable value actually creates a new value in memory instead of changing the original one.
+
+// Examples: number, string, boolean, null, undefined, symbol, bigint
+
+// ✅ Definition: Mutable Data Type
+
+// Mutable data types are those whose values can be changed after they are created.
+// Changes made to a mutable value directly affect the original object stored in memory.
+
+// Examples: object, array, function
+
