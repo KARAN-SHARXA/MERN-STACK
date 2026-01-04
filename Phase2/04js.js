@@ -31,7 +31,7 @@ switch(day){
   case 3:
     console.log("wednesday");
 }
-
+// condition ins js
 
 
 
