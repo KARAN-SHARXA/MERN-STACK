@@ -6,10 +6,13 @@ let person = {
   city: "New York"
 }
 console.log(person);
+console.log("great");
 
 
 
+//new object
 console.log("hi ");
 console.log("rah");
+
 
 
