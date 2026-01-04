@@ -122,6 +122,12 @@ let cc = 12;
 
 
 
-// Definition of TDZ (Temporal Dead Zone)
 
-// Temporal Dead Zone is the time when a let or const variable exists in scope but cannot be used before its declaration.
+
+
+
+// Hoisting is a JavaScript behavior where variable declarations are moved to the top of their scope during the memory creation phase.
+
+// For var, the variable is initialized with undefined.
+
+// For let and const, the variables are hoisted but kept in the Temporal Dead Zone (TDZ), which is the time period between hoisting and actual initialization.
