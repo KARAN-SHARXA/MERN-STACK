@@ -42,5 +42,32 @@ console.log(++x);
 
 // x++ → Use first, then increase
 
+let count = 2;
+console.log(count++);
+console.log(count);
+console.log(count++);
+console.log(count);
+
+
+let count1 = 10;
+console.log(++count1);
+console.log(count1);
+console.log(++count1);
+
+let count3 = 0;
+console.log(++count3);//1
+console.log(count3++);//1
+console.log(count3);
+
+console.log(--count3);
+
+
+
+
+
+
+
+
+
 
 
