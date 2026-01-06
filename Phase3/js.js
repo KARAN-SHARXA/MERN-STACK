@@ -28,12 +28,36 @@ b.removeAttribute("alt")
 
 
 // createelement
-let o = document.createElement("h1");
-o.textContent = "hello ji kaise ho";
-document.querySelector("div").prepend(o);
+let h2 = document.createElement("h3");
+h2.textContent="hey mukehs";
+document.querySelector("div").prepend(h2)
 
 
 
-let bb=document.querySelector("h1");
-bb.style.color = "pink"
+let h1 = document.querySelector("#h1");
+h1.classList.add("hulu")
+
+let buynow = document.querySelector(".buy-now")
+console.dir(buynow);
+
+let heading = document.querySelector("#h1");
+heading.textContent="welcome to game";
+
+
+let q = document.querySelectorAll("li");
+q.forEach(element => {
+  console.log(element.textContent);
+  
+  
+});
+
+let img = document.querySelector("img").setAttribute("alt","karan")
+
+
+let h8 = document.createElement("h6");
+h8.textContent="kua";
+document.querySelector("body").append(h8)
+
+
+
 
