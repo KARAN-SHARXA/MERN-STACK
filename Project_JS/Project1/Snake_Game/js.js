@@ -18,7 +18,7 @@ let score;
 let seconds = 0;
 let paused = false;
 
-// ================= INIT =================
+// ================= INIT ================= //
 function init() {
   board.innerHTML = '';
   blocks = {};
@@ -166,6 +166,7 @@ function endGame() {
   clearInterval(gameLoop);
   alert('Game Over');
 }
+// veru useful
 
 // ================= START =================
 init();
